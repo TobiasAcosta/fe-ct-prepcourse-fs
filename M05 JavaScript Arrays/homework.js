@@ -225,7 +225,7 @@ function breakStatement(num) {
    for (var i = 0; i < 10; i++) {
       bucle = bucle + 2;
       
-      if (bucle === i) break;
+      if (bucle === i) break; // rompe con el bucle
       else {
          nuevoValor.push(bucle);
       }
@@ -249,7 +249,7 @@ function continueStatement(num) {
    var bucle = num;
    for (var i = 0; i < 10; i++) {
       if (i === 5){
-         continue;
+         continue; // corta con la iteracion y sigue con la soguiente
       }  
       bucle = bucle + 2;
       newArray.push(bucle);
